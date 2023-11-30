@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <h1>Especificidad</h1>
+    <nav>
+        <ul></ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/selectores.html">¿Qué son los selectores?</a></li>
+        <li><a href="/herencia.html">¿Qué es la herencia?</a></li>
+        <li><a href="/cascada.html">¿Qué es la cascada?</a></li>
+        <li><a href="/especificidad.html">¿Qué es la especificidad?</a></li>
+        
+    </nav>
+
+        <h2>Definición de Especificidad</h2>
+        <p>Se usa para determinar qué reglas del CSS prevalecerá sobre las otras. Incluso cuenta con una tabla de valores</p>
+
+        <h3>Ejemplo de Especificidad</h3>
+        
+        <p>.selectorClass {
+            color: blue
+        }</p>
+    
+        <p>#selectorID {
+            color: peru
+        }</p>
+
+        <p>En este caso prevalecerá el atributo del selector ID por encima de Class por tener una importancia mayor. Es decir, Class también se pintará de peru</p>
+
+
+</body>
+</html>
